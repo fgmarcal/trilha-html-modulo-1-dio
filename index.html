@@ -1,62 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Minha primeira página</title>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+    <div>
+        <h1 id="main">Lorem Ipsum</h1>
+        <hr />
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <ul>
+            <li><a href="#sec1"> Section 1</a></li>
+            <li><a href="#sec2"> Section 2</a></li>
+            <li><a href="#sec3"> Section 3</a></li>
+            <li><a href="#sec4"> Section 4</a></li>
+            <li><a href="#ref"> References</a></li>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        </ul>
+        <hr />
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <h2 id="sec1">Section 1</h2>
+        <small> <a href="#main">(voltar)</a></small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ex diam. Fusce ut malesuada felis. Integer
+            pulvinar id magna vitae vehicula. Praesent augue magna, egestas a nunc sit amet, tempor vulputate nibh.
+            Mauris efficitur sagittis luctus. Sed lacinia orci quis risus suscipit, nec tincidunt libero vestibulum.
+            Aliquam pellentesque nulla est, id ornare augue tincidunt quis. Nullam malesuada gravida arcu, vel vehicula
+            eros venenatis eu. Ut eget faucibus massa. Vestibulum rutrum fringilla sollicitudin. Ut lorem lacus, tempor
+            ac porta non, pharetra non felis. Aliquam interdum orci eu erat dignissim, in vehicula arcu bibendum. Nullam
+            gravida quis magna id ultrices.
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        </p>
+        <p>Curabitur et suscipit enim, at tempor urna. Duis a rutrum nulla. Etiam pulvinar metus vitae est vehicula,
+            iaculis mollis ex ornare. Sed lacus mauris, luctus id erat in, vulputate imperdiet odio. In ut eros erat.
+            Sed non tellus porta, scelerisque felis sit amet, venenatis massa. Mauris a sollicitudin lacus. Vestibulum
+            tempus tortor tempus tincidunt pulvinar. Fusce sed varius eros. Donec malesuada elementum varius. Nulla a
+            elementum libero.
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        </p>
+        <hr />
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+        <h2 id="sec2">Section 2</h2>
+        <small> <a href="#main">(voltar)</a></small>
+        <p>In vel viverra lacus, nec ultrices ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Curabitur et tellus nec quam dapibus luctus eget non nulla. Donec erat tellus, pulvinar eget porttitor at,
+            condimentum quis sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis egestas. Praesent quis massa nunc. Integer non velit euismod, eleifend lacus ultrices, rutrum risus.
+            Maecenas ligula est,<strong> id interdum ut, tempus nec sapien. </strong>Curabitur porta sapien sit amet
+            nibh
+            suscipit, ac pellentesque neque placerat. Donec molestie sapien a neque rhoncus, in viverra erat accumsan.
+            Donec ut enim nec leo rhoncus tempor at eu risus. Phasellus varius, felis non aliquet imperdiet, quam velit
+            elementum risus, id gravida tellus metus tincidunt lectus. Nullam id dui lectus.
+
+        </p>
+        <hr />
+
+        <h2 id="sec3">Section 3</h2>
+        <small> <a href="#main">(voltar)</a></small>
+        <p>Etiam turpis tellus, eleifend id finibus eleifend, facilisis pellentesque lorem. In hac habitasse platea
+            dictumst. Nam feugiat sem ex, in molestie diam dictum ut. Phasellus consequat sem risus. Fusce porta augue
+            vitae magna suscipit, quis rutrum justo mollis. <mark> Maecenas </mark>nec sapien id est porttitor placerat.
+            Vestibulum id
+            tristique lectus. In ut mattis leo.
+
+        </p>
+        <hr />
+
+        <h2 id="sec4">Section 4</h2>
+        <small> <a href="#main">(voltar)</a></small>
+        <p>In lobortis sodales posuere. Praesent vel fermentum lacus, lobortis venenatis ipsum. Vestibulum et finibus
+            dui. Duis congue porta metus, id placerat ipsum iaculis et. Suspendisse efficitur, orci finibus cursus
+            suscipit, sapien nulla cursus nunc, ac eleifend felis metus et nunc. Vivamus eu dolor pulvinar, sollicitudin
+            purus non, viverra mi. Cras eros libero, dictum sit amet risus lacinia, porta rutrum ligula. Pellentesque
+            maximus, est et pulvinar dignissim, sapien nulla tempor nunc, ac malesuada urna massa vel purus. Sed
+            ultrices augue nec dolor ullamcorper, a varius nisl sollicitudin. Sed aliquet quam sit amet nulla ultricies,
+            quis sodales lorem viverra. Nulla vel ex id metus ornare volutpat. Integer vel viverra justo. Vivamus semper
+            erat velit, in sagittis odio condimentum in. Nam tempus turpis sed nunc rutrum, non eleifend justo
+            condimentum. Suspendisse rhoncus lorem porttitor, rhoncus nunc nec, commodo diam. Morbi dignissim tristique
+            risus nec blandit.<sup>*</sup>
+
+        </p>
+        <p><i><small><sup>*</sup>Aenean quis dolor mattis, pharetra neque et, ullamcorper arcu.</i></small></p>
+        <hr />
+
+        <h2 id="ref">References</h2>
+        <small> <a href="#main">(voltar)</a></small>
+        <ol>
+            <li><a href="https://br.lipsum.com/feed/html" target="_blank">Lorem Ipsum Generator</a></li>
+            <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a></li>
+        </ol>
+
+    </div>
 
 </body>
+
 </html>
